@@ -9,7 +9,7 @@ export default function Nosotros() {
         <div>
           <div className="perk">
             <img
-              src={`${url}/tiempo2.png`}
+              src={`${url}/assets/tiempo2.png`}
               alt="tiempo"
               className="perk-icon"
             />
@@ -26,7 +26,7 @@ export default function Nosotros() {
         </div>
         <div>
           <div className="perk">
-            <img src={`${url}/check.png`} alt="" />
+            <img src={`${url}/assets/check.png`} alt="" />
             <h3>Tacto</h3>
           </div>
           <p>nuestros metodos han sido probados por años de experiencia</p>
