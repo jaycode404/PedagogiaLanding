@@ -5,16 +5,18 @@ import Nosotros from "./components/Nosotros";
 import Testimonials from "./components/Testimonials";
 import Contacto from "./components/Contacto";
 import Footer from "./components/Footer";
-function App() {
 
+function App() {
   return (
     <>
-      <Navbar />
-      <Header />
-      <Nosotros/>
-      <Testimonials/>
-      <Contacto/>
-      <Footer/>
+      <div className="applist">
+        <Navbar />
+        <Header />
+        <Nosotros />
+        <Testimonials />
+        <Contacto />
+        <Footer />
+      </div>
     </>
   );
 }

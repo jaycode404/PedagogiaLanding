@@ -26,11 +26,37 @@ a {
 }
 
 .nav-container {
-  /* background-color: rgb(240, 213, 14); */
+  color: white;
+  background-color: #e89b17;
+}
+.header {
+  background-image: linear-gradient(rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0.5)), url(/src/assets/lapices.webp);
+
+}
+.header div {
+  display: grid;
+  gap: 1rem;
+}
+.header-title {
+  font-family: "Schoolbell", cursive;
 }
 
-.header {
-  /* background-color: rgba(200, 200, 200, 1); */
+.contact-form {
+  box-shadow: 8px 8px 20px rgba(0, 0, 0, 0.4);
+}
+.applist > :nth-child(odd) {
+  background-image: linear-gradient(#e89b17, #cd7712);
+  color: white;
+  box-shadow: 8px 8px 60px rgba(0, 0, 0, 0.4);
+}
+
+.form-button {
+  padding: 0.3rem;
+  color: #411b07;
+  background-image: linear-gradient(#e89b17, #cd7712);
+
+  border: none;
+  border-radius: 2px;
 }
 
 /* xss */
@@ -40,8 +66,6 @@ a {
     padding: 1rem;
     display: grid;
     gap: 1rem;
-    margin: 2rem 0;
-    
   }
   .navlist-container {
     display: flex;
@@ -69,17 +93,37 @@ a {
     max-height: 8rem;
     height: auto;
     padding: 0.5rem;
-    background-color: rgba(200, 200, 200, 1);
+    border-left: 4px solid #cd7712;
+    background-color: #f7e290;
     border-radius: 10px;
   }
   .opinion-card p {
     overflow: hidden;
     text-overflow: ellipsis;
   }
+  .perk {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    margin: 0 0 1rem 0;
+  }
+  .perk img {
+    width: 1.3rem;
+  }
+  .perk-container p {
+    padding-left: 2.5rem;
+  }
+  .perk-container {
+    padding: 1rem;
+  }
+  .perk-container div {
+    margin-top: 1rem;
+  }
+
   .contact-form {
     display: flex;
     padding: 1rem;
-    background-color: rgba(200, 200, 200, 1);
+    /* background-color: rgba(200, 200, 200, 1); */
     border-radius: 10px;
     flex-direction: column;
     margin: 0 auto;
@@ -94,7 +138,7 @@ a {
     gap: 0.5rem;
   }
   .contact-form div input {
-    border-radius: 5px;
+    border-radius: 2cm;
     border: none;
     height: 1rem;
     width: 100%;
@@ -113,7 +157,7 @@ a {
   }
   .footer {
     display: grid;
-    background-color: rgba(200, 200, 200, 1);
+    background-color: #f7e290;
     width: 100%;
     height: 10rem;
     padding: 1rem;

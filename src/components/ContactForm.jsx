@@ -17,6 +17,9 @@ export default function ContactForm() {
           <input type="number" name="telefono" id="telefono" />
         </div>
       </div>
+      <button type="submit" className="form-button">
+        Enviar
+      </button>
     </form>
   );
 }
