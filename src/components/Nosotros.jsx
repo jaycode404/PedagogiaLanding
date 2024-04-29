@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 
 export default function Nosotros() {
-  const [url, setUrl] = useState("https://pedagogia-landing.vercel.app/");
+  const [url, setUrl] = useState("https://pedagogia-landing.vercel.app");
   return (
     <div className="container">
       <h2 className="title">Porqué nosotros?</h2>
