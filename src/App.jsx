@@ -11,11 +11,21 @@ function App() {
     <>
       <div className="applist">
         <Navbar />
-        <Header />
-        <Nosotros />
-        <Testimonials />
-        <Contacto />
-        <Footer />
+        <div className="header">
+          <Header />
+        </div>
+        <div>
+          <Nosotros />
+        </div>
+        <div>
+          <Testimonials />
+        </div>
+        <div>
+          <Contacto />
+        </div>
+        <div>
+          <Footer />
+        </div>
       </div>
     </>
   );

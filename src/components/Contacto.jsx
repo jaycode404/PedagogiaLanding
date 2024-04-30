@@ -3,7 +3,7 @@ import ContactForm from "./ContactForm";
 
 export default function Contacto() {
   return (
-    <section className="container">
+    <section id="contacto" className="container">
       <h2 className="title">Contactanos</h2>
       <ContactForm />
     </section>

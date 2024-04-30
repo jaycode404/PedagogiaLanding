@@ -25,7 +25,7 @@ export default function Footer() {
           </ul>
         </div>
       </div>
-      <div className="footer-section">
+      <div className="footer-section footer-bottom">
         <p>
           &copy; {new Date().getFullYear()} Tutorías para Niños - Todos los
           derechos reservados
