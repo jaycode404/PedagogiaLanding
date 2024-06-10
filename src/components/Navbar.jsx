@@ -9,10 +9,10 @@ export default function Navbar() {
 
   return (
     <div className="nav-container">
-      <div>Excelencia</div>
+      <div className="logo"> <img className="logo-icon" src="/assets/lapiz.png" alt="" /><span className="logo-text">Mestra celia</span></div>
       <div className="navlist-container">
         {navlist.map((item, index) => (
-          <a key={index} href={item.url}>
+          <a className="nav-link" key={index} href={item.url}>
             {item.title}
           </a>
         ))}

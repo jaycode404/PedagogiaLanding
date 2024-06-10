@@ -10,20 +10,7 @@ export default function Footer() {
           <p>Correo electrónico: info@tutoriasparaniños.com</p>
         </div>
 
-        <div className="footer-section">
-          <h3>Síguenos en redes sociales</h3>
-          <ul>
-            <li>
-              <a href="https://facebook.com">Facebook</a>
-            </li>
-            <li>
-              <a href="https://twitter.com">Twitter</a>
-            </li>
-            <li>
-              <a href="https://instagram.com">Instagram</a>
-            </li>
-          </ul>
-        </div>
+        
       </div>
       <div className="footer-section footer-bottom">
         <p>
