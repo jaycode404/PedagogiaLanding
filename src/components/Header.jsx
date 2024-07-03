@@ -6,7 +6,7 @@ export default function Header() {
       <h1>Optimizacion de perfil academico</h1>
       <div >
         <p className="header-desc">
-          nos enfocamos en la mejora y desempeño academico de nuestros alumnos
+          Nos enfocamos en la mejora y desempeño academico de nuestros alumnos
         </p>
         <h4 className="header-title"> los ninos importan</h4>
       </div>

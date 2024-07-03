@@ -4,7 +4,7 @@ import ContactForm from "./ContactForm";
 export default function Contacto() {
   return (
     <section id="contacto" className="container contacto-container">
-      <h2 className="title">Contactanos</h2>
+      <h2 className="section-title">Contactanos</h2>
       {/* <ContactForm /> */}
       <p>
         No dudes en aclarar tus dudas con nosotros, escribenos por WhatsApp o
